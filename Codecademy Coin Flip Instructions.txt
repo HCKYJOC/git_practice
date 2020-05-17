@@ -1,0 +1,25 @@
+
+The project starts by importing the random module. Every game of chance will involve generating a random number.
+
+For example, to generate a random between 1 and 10 (inclusive) and store it in a variable named num, use this line of code:
+
+num = random.randint(1, 10)
+The project also has a variable named money that starts at 100. This represents your current amount of money. In every game of chance, you will be able to bet money. The value of money should change depending on whether you win or lose the game.
+
+At the end of the project, we will have you call several of these functions in a row to see how much money you can win. But it is a good idea to call these functions to test them as you are creating them.
+
+Your functions should have print statements to help the user understand what has happened. For example, in games of chance that involve rolling dice, you should print out the result of those dice rolls. You should also print whether the player won or lost the game, and how much money they won or lost.
+
+3.
+Create a function that simulates flipping a coin and calling either "Heads" or "Tails". This function (along with all of the other functions you will write in this project) should have a parameter that represents how much the player is betting on the coin flip.
+
+This function should also have a parameter that lets the player call either "Heads" or "Tails".
+
+If the player wins the game, the function should return the amount that they won. If the player loses the game, the function should return the amount that they lost as a negative number.
+
+
+Hint
+Our function definition looked like this:
+
+def coin_flip(guess, bet):
+Simulate a coin flip by randomly generating an integer between 1 and 2 (inclusive).
